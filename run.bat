@@ -1,4 +1,4 @@
 @echo off
 cd /d %~dp0
-python -m backend.app
+.\.venv\Scripts\python.exe -m backend.main
 pause
